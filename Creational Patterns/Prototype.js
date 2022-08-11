@@ -1,3 +1,13 @@
+// An example of where the Prototype pattern is useful is the initialization of 
+// business objects with values that match the default values in the database. 
+// The prototype object holds the default values that are copied over into a newly 
+// created business object.
+
+// Classical languages rarely use the Prototype pattern, but JavaScript being 
+// a prototypal language uses this pattern in the construction of new objects 
+// and their prototypes.
+
+
 function Customer(first, last, status) {
     this.first = first;
     this.last = last;

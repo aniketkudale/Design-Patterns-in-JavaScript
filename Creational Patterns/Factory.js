@@ -1,3 +1,10 @@
+// The key objective of the Factory Method is extensibility. Factory Methods are frequently 
+// used in applications that manage, maintain, or manipulate collections of objects that are 
+// different but at the same time have many characteristics (i.e. methods and properties) in 
+// common. An example would be a collection of documents with a mix of Xml documents, Pdf documents, 
+// and Rtf documents.
+
+
 var Factory = function () {
     this.createEmployee = function (type) {
         var employee;
